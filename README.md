@@ -1,5 +1,5 @@
 # cps
-Enhance the gh copilot suggest -t shell wrapper by incorporating a prompt feature to execute the command.
+Enhance the `gh copilot suggest -t shell` wrapper by incorporating a prompt feature to execute the command.
 
 ### Requirements:
 see: https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli
