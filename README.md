@@ -12,7 +12,7 @@ see: https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-c
 ### Examples:
 ```
   $ cps "Kill processes holding onto deleted files"
-  > fuser -vk /path/to/file
+  > sudo lsof | grep deleted | awk '{print $2}' | uniq | xargs kill -9
   > Press any button to continue, or n to cancel:
 ```
 ```
