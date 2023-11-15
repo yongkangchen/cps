@@ -1,6 +1,10 @@
 # cps
 Enhance the `gh copilot suggest -t shell` to execute the command.
 
+
+<img width="525" alt="Screenshot 2023-11-15 at 3 48 38 PM" src="https://github.com/yongkangchen/cps/assets/704762/31cde106-9a16-4342-baf2-fc5f1c651a48">
+
+
 ### Requirements:
 see: https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli
 
@@ -11,6 +15,7 @@ see: https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-c
 
 ### Examples:
 ```
+
   $ cps "Kill processes holding onto deleted files"
   > sudo lsof | grep deleted | awk '{print $2}' | uniq | xargs kill -9
   > Press any button to continue, or n to cancel:
