@@ -1,8 +1,8 @@
 # cps
 Enhance the `gh copilot suggest -t shell` to execute the command.
 
+<img width="559" alt="Screenshot 2023-11-15 at 3 50 04 PM" src="https://github.com/yongkangchen/cps/assets/704762/e405dd64-4989-4f09-8028-1b39a55c9631">
 
-<img width="525" alt="Screenshot 2023-11-15 at 3 48 38 PM" src="https://github.com/yongkangchen/cps/assets/704762/31cde106-9a16-4342-baf2-fc5f1c651a48">
 
 
 ### Requirements:
